@@ -1,7 +1,6 @@
 # LangGraph Workflow Orchestration
-
 This project aims to show a LangGraph based workflow orchestration leveraging LangChain and OpenAI models for multi node conversational AI tasks. The system routes user queries dynamically to different specialized nodes (RAG, Web Crawl, LLM) based on intent classification, validates responses, and retries if needed.
----
+
 
 ## Features
 
@@ -14,7 +13,6 @@ This project aims to show a LangGraph based workflow orchestration leveraging La
 - **Re-router:** Handles retry logic to prevent dead ends or poor answers.
 - **Final Node:** Returns the validated response.
 
----
 
 ## Setup
 
